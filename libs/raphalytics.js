@@ -63,7 +63,7 @@ function raphalytics(paper,data,labels,tooltips,options)
     {
         if (Math.max.apply(Math, data[i])>max_value)
         {
-            max_value=Math.max.apply(Math.data[i]);
+            max_value=Math.max.apply(Math, data[i]);
         }
     }
 
